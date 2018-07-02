@@ -1,0 +1,6 @@
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/bin/Debug/ExecViewTask.exe
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/bin/Debug/ExecViewTask.pdb
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/obj/x86/Debug/ExecViewTask.csprojResolveAssemblyReference.cache
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/obj/x86/Debug/ExecViewTask.csproj.CoreCompileInputs.cache
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/obj/x86/Debug/ExecViewTask.exe
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/obj/x86/Debug/ExecViewTask.pdb

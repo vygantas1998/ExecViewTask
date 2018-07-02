@@ -1,0 +1,4 @@
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.csprojResolveAssemblyReference.cache
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.csproj.CoreCompileInputs.cache
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.AssemblyInfoInputs.cache
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.AssemblyInfo.cs
