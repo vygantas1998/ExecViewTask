@@ -1,24 +1,16 @@
 ﻿<Properties StartupConfiguration="{7A6C64B3-5BF1-496A-B416-B0AB54750054}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ExcecViewTask.UnitTest/HeightTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExecViewTask/Program.cs">
     <Files>
-      <File FileName="ExecViewTask/Program.cs" Line="15" Column="13" />
-      <File FileName="ExecViewTask/Player.cs" Line="19" Column="10" />
-      <File FileName="ExcecViewTask.UnitTest/HeightTest.cs" Line="15" Column="38" />
-      <File FileName="ExcecViewTask.UnitTest/PlayersTest.cs" Line="15" Column="45" />
-      <File FileName="ExecViewTask/Players.cs" Line="40" Column="100" />
+      <File FileName="ExecViewTask/Program.cs" Line="26" Column="37" />
+      <File FileName="ExecViewTask/Player.cs" Line="13" Column="45" />
+      <File FileName="ExecViewTask/:Users:vygantasskirius:Projects:ExecViewTask:ExcecViewTask.UnitTest:PlayersTest.cs" Line="59" Column="53" />
+      <File FileName="ExecViewTask/Players.cs" Line="67" Column="67" />
       <File FileName="ExecViewTask/chicago-bulls.csv" Line="4" Column="69" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="ExecViewTask" expanded="True">
-            <Node name="ExecViewTask.UnitTest" expanded="True">
-              <Node name="ExecViewTask" expanded="True">
-                <Node name="HeightTest" expanded="True" />
-                <Node name="PlayerTest" expanded="True" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="ExecViewTask" expanded="True" />
         </State>
       </Pad>
     </Pads>
@@ -26,8 +18,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/Program.cs" relfile="ExecViewTask/Program.cs" line="32" column="1" />
-      <Breakpoint file="/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/Program.cs" relfile="ExecViewTask/Program.cs" line="28" column="1" />
+      <Breakpoint file="/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/Program.cs" relfile="ExecViewTask/Program.cs" line="31" column="1" />
+      <Breakpoint file="/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/Program.cs" relfile="ExecViewTask/Program.cs" line="27" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

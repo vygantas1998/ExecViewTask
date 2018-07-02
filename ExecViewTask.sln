@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecViewTask", "ExecViewTask\ExecViewTask.csproj", "{7A6C64B3-5BF1-496A-B416-B0AB54750054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecViewTask.UnitTest", "ExcecViewTask.UnitTest\ExecViewTask.UnitTest.csproj", "{C4AFB3FA-EC53-45F6-ABAE-0A93A9D558D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecViewTask.UnitTest", "ExecViewTask.UnitTest\ExecViewTask.UnitTest.csproj", "{C4AFB3FA-EC53-45F6-ABAE-0A93A9D558D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
