@@ -15,7 +15,11 @@ namespace ExecViewTask
 
             players.ReadPlayersDataFromCSV(filePath);
 
+            var sorted = players.GetSortedByPPG();
+
             double a = players.getAverageHeightInCentimeters();
+
+            var pos = players.getPlayerCountInPositions();
 
             //JavaScriptSerializer javaScriptSerializer = new JavaScriptSerializer();
             //var output = javaScriptSerializer.Serialize(players);

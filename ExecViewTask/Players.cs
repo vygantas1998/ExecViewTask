@@ -40,7 +40,7 @@ namespace ExecViewTask
                                                    new Height(data[5]),
                                                    data[6],
                                                    data[7],
-                                                   float.Parse(data[8])));
+                                                   double.Parse(data[8])));
                     }
                     catch {
                         throw new Exception("Wrong format: " + filePath + ", line: " + lineNumber);
@@ -50,9 +50,9 @@ namespace ExecViewTask
             }
         }
 
-        public void SortByPPG()
+        public List<Player> GetSortedByPPG()
         {
-            PlayersData.Sort((x, y) => y.PPG.CompareTo(x.PPG));
+            return PlayersData.OrderByDescending(x => x.PPG).ToList<Player>();
         }
 
         public double getAveragePPG()
@@ -64,7 +64,15 @@ namespace ExecViewTask
         {
             return PlayersData.Select(x => x.Height.GetHeightInCentimeters()).Average();    
         }
+        public Dictionary<string, int> getPlayerCountInPositions(){
+            Dictionary<string, int> positions = new Dictionary<string, int>();
+            string[] positionsArray = PlayersData.Select(x => x.Position).Distinct().ToArray();
 
+            foreach(string pos in positionsArray){
+                positions.Add(pos, PlayersData.Where(x => x.Position == pos).Count());
+            }
+            return positions;
+        }
 
     }
 }

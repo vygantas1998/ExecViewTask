@@ -22,11 +22,11 @@ namespace ExecViewTask.UnitTest
             }
         }
         [Test()]
-        public void GetAveragePPGTest()
+        public void getAveragePPGTest()
         {
             Players players = new Players();
             Player player1 = new Player(1, "PG", 20, "Lithuania", "Antony", new Height("5 ft 6 in"), "200lb", "KTU", 3);
-            Player player2 = new Player(1, "PG", 20, "Lithuania", "Antony", new Height("5 ft 6 in"), "200lb", "KTU", 5);
+            Player player2 = new Player(1, "PG", 20, "Lithuania", "Antony", new Height("5 ft 7 in"), "200lb", "KTU", 5);
             players.Add(player1);
             players.Add(player2);
 
@@ -50,6 +50,22 @@ namespace ExecViewTask.UnitTest
             double actual = players.getAverageHeightInCentimeters();
 
             Assert.AreEqual(expected, actual, 0.001);
+        }
+        [Test()]
+        public void getPlayerCountInPositionsTest()
+        {
+            Players players = new Players();
+            Player player1 = new Player(1, "PG", 20, "Lithuania", "Antony", new Height("5 ft 6 in"), "200lb", "KTU", 3);
+            Player player2 = new Player(1, "PG", 20, "Lithuania", "Antony", new Height("5 ft 7 in"), "200lb", "KTU", 5);
+            //players.Add(player1);
+            //players.Add(player2);
+
+            Dictionary<string, int> expected = new Dictionary<string, int>();
+            //expected.Add("PG", 2);
+
+            Dictionary<string, int> actual = players.getPlayerCountInPositions();
+
+            CollectionAssert.AreEqual(expected, actual);
         }
     }
 }
