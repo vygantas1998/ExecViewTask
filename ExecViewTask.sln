@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecViewTask", "ExecViewTask\ExecViewTask.csproj", "{7A6C64B3-5BF1-496A-B416-B0AB54750054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecViewTast.UnitTest", "ExecViewTast.UnitTest\ExecViewTast.UnitTest.csproj", "{E976B6DF-AAF3-4B06-90FC-CB98F26A2646}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecViewTask.UnitTest", "ExcecViewTask.UnitTest\ExecViewTask.UnitTest.csproj", "{C4AFB3FA-EC53-45F6-ABAE-0A93A9D558D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,9 @@ Global
 		{7A6C64B3-5BF1-496A-B416-B0AB54750054}.Debug|x86.Build.0 = Debug|x86
 		{7A6C64B3-5BF1-496A-B416-B0AB54750054}.Release|x86.ActiveCfg = Release|x86
 		{7A6C64B3-5BF1-496A-B416-B0AB54750054}.Release|x86.Build.0 = Release|x86
-		{E976B6DF-AAF3-4B06-90FC-CB98F26A2646}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E976B6DF-AAF3-4B06-90FC-CB98F26A2646}.Debug|x86.Build.0 = Debug|Any CPU
-		{E976B6DF-AAF3-4B06-90FC-CB98F26A2646}.Release|x86.ActiveCfg = Release|Any CPU
-		{E976B6DF-AAF3-4B06-90FC-CB98F26A2646}.Release|x86.Build.0 = Release|Any CPU
+		{C4AFB3FA-EC53-45F6-ABAE-0A93A9D558D5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C4AFB3FA-EC53-45F6-ABAE-0A93A9D558D5}.Debug|x86.Build.0 = Debug|Any CPU
+		{C4AFB3FA-EC53-45F6-ABAE-0A93A9D558D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{C4AFB3FA-EC53-45F6-ABAE-0A93A9D558D5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

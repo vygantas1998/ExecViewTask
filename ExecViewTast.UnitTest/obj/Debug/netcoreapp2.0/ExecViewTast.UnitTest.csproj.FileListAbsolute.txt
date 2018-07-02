@@ -2,3 +2,13 @@
 /Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.csproj.CoreCompileInputs.cache
 /Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.AssemblyInfoInputs.cache
 /Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.AssemblyInfo.cs
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/bin/Debug/netcoreapp2.0/ExecViewTast.UnitTest.deps.json
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/bin/Debug/netcoreapp2.0/ExecViewTast.UnitTest.runtimeconfig.json
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/bin/Debug/netcoreapp2.0/ExecViewTast.UnitTest.runtimeconfig.dev.json
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/bin/Debug/netcoreapp2.0/ExecViewTast.UnitTest.dll
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/bin/Debug/netcoreapp2.0/ExecViewTast.UnitTest.pdb
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.dll
+/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTast.UnitTest/obj/Debug/netcoreapp2.0/ExecViewTast.UnitTest.pdb

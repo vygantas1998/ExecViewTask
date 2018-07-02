@@ -8,14 +8,14 @@ namespace ExecViewTask
         public int Number { get; set; }
         public string Country { get; set; }
         public string Name { get; set; }
-        public string Height { get; set; }
+        public Height Height { get; set; }
         public string Weight { get; set; }
         public string Univercity { get; set; }
-        public float PPG { get; set; }
+        public double PPG { get; set; }
 
         public Player(int id, string position, int number, string country, 
-                      string name, string height, string weight, string univercity,
-                      float ppg)
+                      string name, Height height, string weight, string univercity,
+                      double ppg)
         {
             Id = id;
             Position = position;

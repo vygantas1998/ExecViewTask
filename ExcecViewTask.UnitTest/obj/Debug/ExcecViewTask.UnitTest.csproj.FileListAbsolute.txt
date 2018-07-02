@@ -1,0 +1,10 @@
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/bin/Debug/ExcecViewTask.UnitTest.dll
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/bin/Debug/ExcecViewTask.UnitTest.pdb
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/bin/Debug/ExecViewTask.exe
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/bin/Debug/nunit.framework.dll
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/bin/Debug/ExecViewTask.pdb
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/bin/Debug/nunit.framework.xml
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/obj/Debug/ExcecViewTask.UnitTest.csprojResolveAssemblyReference.cache
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/obj/Debug/ExcecViewTask.UnitTest.csproj.CoreCompileInputs.cache
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/obj/Debug/ExcecViewTask.UnitTest.dll
+/Users/vygantasskirius/Projects/ExecViewTask/ExcecViewTask.UnitTest/obj/Debug/ExcecViewTask.UnitTest.pdb
