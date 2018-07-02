@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{7A6C64B3-5BF1-496A-B416-B0AB54750054}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExecViewTask/Program.cs">
+    <Files>
+      <File FileName="ExecViewTask/Program.cs" Line="1" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vygantasskirius/Projects/ExecViewTask/ExecViewTask/Program.cs" relfile="ExecViewTask/Program.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ExecViewTask PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
