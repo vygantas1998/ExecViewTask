@@ -42,7 +42,8 @@ namespace ExecViewTask
                                                    data[7],
                                                    double.Parse(data[8])));
                     }
-                    catch {
+                    catch
+                    {
                         throw new Exception("Wrong format: " + filePath + ", line: " + lineNumber);
                     }
                     lineNumber++;
@@ -57,22 +58,69 @@ namespace ExecViewTask
 
         public double getAveragePPG()
         {
-            return PlayersData.Select(x => x.PPG).Average();
+            if (PlayersData.Count != 0)
+            {
+                return PlayersData.Select(x => x.PPG).Average();
+            }
+            return 0;
         }
 
         public double getAverageHeightInCentimeters()
         {
-            return PlayersData.Select(x => x.Height.GetHeightInCentimeters()).Average();    
+            if (PlayersData.Count != 0)
+            {
+                return PlayersData.Select(x => x.Height.GetHeightInCentimeters()).Average();
+            }
+            return 0;
         }
-        public Dictionary<string, int> getPlayerCountInPositions(){
+
+        public Dictionary<string, int> getPlayerCountInPositions()
+        {
             Dictionary<string, int> positions = new Dictionary<string, int>();
             string[] positionsArray = PlayersData.Select(x => x.Position).Distinct().ToArray();
 
-            foreach(string pos in positionsArray){
+            foreach (string pos in positionsArray)
+            {
                 positions.Add(pos, PlayersData.Where(x => x.Position == pos).Count());
             }
             return positions;
         }
 
+        public List<Dictionary<string, string>> getLeaders()
+        {
+            List<Dictionary<string, string>> leaders = new List<Dictionary<string, string>>();
+            List<Player> sorted = GetSortedByPPG();
+            Dictionary<string, string> dickt;
+
+            if (sorted.Count >= 1)
+            {
+                dickt = new Dictionary<string, string>();
+
+                dickt.Add("Gold", sorted.First().Name);
+                dickt.Add("PPG", sorted.First().PPG.ToString());
+
+                leaders.Add(dickt);
+            }
+            if (sorted.Count >= 2)
+            {
+                dickt = new Dictionary<string, string>();
+
+                dickt.Add("Silver", sorted.Take(2).Last().Name);
+                dickt.Add("PPG", sorted.Take(2).Last().PPG.ToString());
+
+                leaders.Add(dickt);
+            }
+            if (sorted.Count >= 3)
+            {
+                dickt = new Dictionary<string, string>();
+
+                dickt.Add("Bronze", sorted.Take(3).Last().Name);
+                dickt.Add("PPG", sorted.Take(3).Last().PPG.ToString());
+
+                leaders.Add(dickt);
+            }
+
+            return leaders;
+        }
     }
 }
